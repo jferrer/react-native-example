@@ -19,4 +19,4 @@ services:
       - 19002:19002
       - 19006:19006
     command: >
-      /bin/bash -c "yarn install && expo start${PLATFORM}"
+      /bin/bash -c "yarn install && expo start:${PLATFORM}"
